@@ -1,0 +1,35 @@
+.book-container {
+    display: flex;
+    align-items: center; /* Centra verticalmente los elementos dentro del contenedor */
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .book-details {
+    flex: 1; /* La información del libro ocupará todo el espacio disponible */
+  }
+  
+  .book-info {
+    font-size: 16px;
+  }
+  
+  .book-info p {
+    margin: 8px 0;
+  }
+  
+  .book-info p:first-child {
+    font-weight: bold;
+  }
+  
+  .book-info hr {
+    margin-top: 16px;
+    border-top: 16px solid #ccc;
+  }
+
+  .portada {
+    width: auto; /* Establece el ancho de la imagen al 100% del contenedor */
+    height: auto; /* Establece la altura de la imagen al 100% del contenedor */
+    max-width: 150px; /*Ancho máximo para evitar que la imagen se vuelva excesivamente grande */
+    margin-right: 20px; /* Espacio entre la imagen y la información del libro */
+  }
